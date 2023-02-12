@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+      <script src="https://cdn.tailwindcss.com"></script>
+      <link rel="stylesheet" href="style.css">
+</head>
+<body class="h-14 bg-gradient-to-r from-[#F53844] to-[#42378F]">
+
+    <main class=" mx-auto flex justify-center relative custom">
+
+        <section class=" bg-white rounded-3xl custom-height p-20">
+            <div class="flex flex-col  justify-center items-center">
+                <div class="bottom-5 relative">
+                    <img class="h-16  rounded-full" src="./images/download.png" alt="">
+                </div>
+                <div>
+                    <h1 class="font-bold
+                    p-3 text-2xl">Log in</h1>
+            <br>
+
+
+            <!-- -------------------
+                 Email Section
+            --------------------------->
+
+
+            <input id="user-email"
+            class=" w-80 mb-10 outline-none border-b p-3" type="email" placeholder="Plaese Enter Your Email" name="" id="">
+            <br>
+            
+
+          <!-- -------------------
+                Password Section
+            --------------------------->
+            <input id="user-password" 
+            class="w-80 outline-none border-b p-3" type="password" placeholder="Please Enter Your Password" name="" id="">
+            <br>
+
+
+            <!-- if input false -->
+
+            <p id="falseData" class=" p-3 mt-5 text-red-700 text-left text-xs" hidden> *Please input Correct data</p>
+              <!-- -------------------
+                 button  Section
+            --------------------------->
+
+
+            <div class="flex flex-col justify-center items-center">
+              <button id="login-btn" 
+              class=" mt-10 text-center px-10 py-2 text-white rounded-3xl bg-gradient-to-r from-[#2A5470] to-[#4C4177]" type="submit"> Login</button>
+            </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <script src="./baap-er-bank.js"></script>
+</body>
+</html>
